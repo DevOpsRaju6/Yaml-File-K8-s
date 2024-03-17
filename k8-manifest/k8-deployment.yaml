@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: tetris
-          image: lrakai/tetris:1.0.0 
+          image: lrakai/tetris:hostname 
           ports:
             - containerPort: 80 
 
